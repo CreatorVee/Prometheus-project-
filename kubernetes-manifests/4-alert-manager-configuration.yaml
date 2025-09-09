@@ -1,0 +1,48 @@
+apiVersion: monitoring.coreos.com/v1alpha1
+kind: AlertmanagerConfig
+metadata:
+  name: main-rules-alert-config
+  namespace: monitoring
+spec:
+  route:
+    receiver: 'email'
+    repeatInterval: 30m
+    routes:
+      - receiver: 'email'
+        matchers:
+          - name: alertname
+            value: MysqlDown
+          - name: alertname
+            value: MysqlTooManyConnections
+          - name: alertname
+            value: JavaTooManyConnections
+
+      - receiver: 'slack'
+        matchers:
+          - name: alertname
+            value: NginxHighHttp4xxErrorRate
+          - name: alertname
+            value: KubernetesStatefulsetDown
+
+  receivers:
+    - name: 'email'
+      emailConfigs:
+        - to: 'vincentkofin06@gmail.com'
+          from: 'vincentkofinyame@gmail.com'
+          smarthost: 'smtp.gmail.com:587'
+          authUsername: 'vincentkofinyame@gmail.com'
+          authIdentity: 'vincentkofinyame@gmail.com'
+          authPassword:
+            name: gmail-auth
+            key: smtp_password
+          requireTLS: true
+          sendResolved: true
+
+    - name: 'slack'
+      slackConfigs:
+        - channel: '#alerts'                   # ✅ make sure this channel exists in Slack
+          sendResolved: true
+          apiURL:
+            name: slack-auth                  # ✅ this matches your slack secret name
+            key: webhook                      # ✅ this matches the key inside the secret
+2
