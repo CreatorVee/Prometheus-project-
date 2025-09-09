@@ -1,4 +1,4 @@
-# slack-test-rule.yaml
+ slack-test-rule.yaml
 apiVersion: monitoring.coreos.com/v1
 kind: PrometheusRule
 metadata:
