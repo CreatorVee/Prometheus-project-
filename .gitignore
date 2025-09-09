@@ -3,3 +3,4 @@ build
 out
 .gradle*
 4-email-secret.yaml
+java-db-secret.yaml
