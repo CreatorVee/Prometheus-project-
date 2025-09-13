@@ -1,18 +1,13 @@
 architecture: replication
 auth:
-  rootPassword: secret-root-pass
+  rootPassword: "{{ .Values.mysql.rootPassword }}"
   database: my-app-db
-  username: my-user
-  password: my-pass
-
-# enable init container that changes the owner and group of the persistent volume mountpoint to runAsUser:fsGroup
+  username: "{{ .Values.mysql.username }}"
+  password: "{{ .Values.mysql.password }}"
 volumePermissions:
   enabled: true
-
 secondary:
-  # 1 primary and 2 secondary replicas
   replicaCount: 1
   persistence:
     accessModes: ["ReadWriteOnce"]
-    # storage class for LKE volumes
     storageClass: linode-block-storage
