@@ -1,50 +1,56 @@
-***KUBERNETES APPLICATION MONITORING WITH PROMETHEUS***
+# KUBERNETES APPLICATION MONITORING WITH PROMETHEUS***
+
 ---
 
+
+## :) **Explore My Work - *Click Each Badge*  to See Real Code & Configurations** :)
+
+
+
  ***TECH STACK***
+
+ 
  
 # Core Infrastructure & Orchestration:
 
- [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/features/solutions/kubernetes-manifests)
-[![AWS EKS](https://img.shields.io/badge/AWS_EKS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/1-configure-k8s.yaml)
-[![eksctl](https://img.shields.io/badge/eksctl-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/1-configure-k8s.yaml)
-[![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/features/solutions/kubernetes-manifests)
-
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
+[![AWS EKS](https://img.shields.io/badge/AWS_EKS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/1-configure-k8s.yaml)
+[![eksctl](https://img.shields.io/badge/eksctl-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/1-configure-k8s.yaml)
+[![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 
 ---
 
 # Monitoring Stack:
 
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/2-java-service-monitor.yaml)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/2-configure-k8s.yaml)
-[![AlertManager](https://img.shields.io/badge/AlertManager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/4-alert-manager-configuration.yaml)
-[![Node Exporter](https://img.shields.io/badge/Node_Exporter-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/3-k8s-alert-rules.yaml)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/2-java-service-monitor.yaml)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/2-configure-k8s.yaml)
+[![AlertManager](https://img.shields.io/badge/AlertManager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/4-alert-manager-configuration.yaml)
+[![Node Exporter](https://img.shields.io/badge/Node_Exporter-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/3-k8s-alert-rules.yaml)
 
 ---
 
 # Application & Services:
 
-
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/java-app.yaml)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
-[![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/nginx-ingress-chart-values.yaml)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
+[![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/nginx-ingress-chart-values.yaml)
 
 ---
 
 # Deployment & Configuration:
 
-[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/java-app.yaml)
-[![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/features/solutions/kubernetes-manifests)
+[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
+[![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
+
 
 ---
 
 # Specialized Components:
 
-[![Service Monitor](https://img.shields.io/badge/Service_Monitor-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/2-java-service-monitor.yaml)
-[![StatefulSet](https://img.shields.io/badge/StatefulSet-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
-[![Ingress Controller](https://img.shields.io/badge/Ingress_Controller-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/java-app-ingress.yaml)
-[![SMTP](https://img.shields.io/badge/SMTP-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/features/solutions/kubernetes-manifests/4-alert-manager-configuration.yaml)
+[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
+[![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 
 # PROJECT OVERVIEW***
 
@@ -121,43 +127,54 @@ Before this setup:
 
 ***SETUP INSTRUCTIONS***
 
-1️⃣ Create Kubernetes Cluster
+# Create Kubernetes Cluster
 eksctl create cluster --name monitoring-cluster --region eu-west-2 --nodegroup-name ng-1 --nodes 2 --nodes-min 1 --nodes-max 3
+
 ---
 
-2️⃣ Deploy MySQL with Helm
+# Deploy MySQL with Helm
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm upgrade --install my-mysql bitnami/mysql -n monitoring -f 2-mysql-chart-values-lke.yaml
+
+
 ---
-3️⃣ Deploy Java Application
+
+# Deploy Java Application
 kubectl apply -f java-app.yaml -n monitoring
 kubectl apply -f java-app-ingress.yaml -n monitoring
+
 ---
-4️⃣ Deploy Nginx Ingress Controller
+
+# Deploy Nginx Ingress Controller
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm upgrade --install nginx-ingress ingress-nginx/ingress-nginx -n monitoring -f nginx-ingress-chart-values.yaml
+
 ---
-5️⃣ Deploy Prometheus Operator
+
+# Deploy Prometheus Operator
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm upgrade --install monitoring-stack prometheus-community/kube-prometheus-stack -n monitoring
+
 ---
-6️⃣ Configure Metrics Scraping & Alerts
+
+# Configure Metrics Scraping & Alerts
 kubectl apply -f 2-java-service-monitor.yaml -n monitoring
----
 kubectl apply -f 2-mysql-chart-values-lke.yaml -n monitoring
----
 kubectl apply -f 3-nginx-alert-rules.yaml -n monitoring
----
 kubectl apply -f 3-mysql-alert-rules.yaml -n monitoring
----
 kubectl apply -f 3-java-alert-rules.yaml -n monitoring
----
 kubectl apply -f 4-email-secret.yaml -n monitoring
+
 ---
-7️⃣ Access Prometheus & Grafana
+
+# Access Prometheus & Grafana
+
 kubectl port-forward svc/prometheus-monitoring-stack-kube-prom-prometheus 9090:9090 -n monitoring
 kubectl port-forward svc/monitoring-stack-grafana 3000:80 -n monitoring
+
+
+
 ---
 
  ***PERSONAL LEARNINGS***
