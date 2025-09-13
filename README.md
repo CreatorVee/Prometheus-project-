@@ -23,9 +23,8 @@
 # Monitoring Stack:
 
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/2-java-service-monitor.yaml)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/2-configure-k8s.yaml)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/3-java-alert-rules.yaml)
 [![AlertManager](https://img.shields.io/badge/AlertManager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/4-alert-manager-configuration.yaml)
-[![Node Exporter](https://img.shields.io/badge/Node_Exporter-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/3-k8s-alert-rules.yaml)
 
 ---
 
@@ -46,11 +45,6 @@
 
 ---
 
-# Specialized Components:
-
-[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
-[![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 
 # PROJECT OVERVIEW***
 
