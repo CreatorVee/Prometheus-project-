@@ -13,10 +13,8 @@
  
 # Core Infrastructure & Orchestration:
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 [![AWS EKS](https://img.shields.io/badge/AWS_EKS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/1-configure-k8s.yaml)
-[![eksctl](https://img.shields.io/badge/eksctl-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/1-configure-k8s.yaml)
-[![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 
 ---
 
@@ -32,13 +30,12 @@
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
-[![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/nginx-ingress-chart-values.yaml)
-
+[![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app-ingress.yaml)
 ---
 
 # Deployment & Configuration:
 
-[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/1-mysql-chart-values-lke.yaml)
+[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/nginx-ingress-chart-values.yaml)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/blob/feature/solutions/kubernetes-manifests/java-app.yaml)
 [![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)](https://github.com/CreatorVee/Prometheus-project-/tree/feature/solutions/kubernetes-manifests)
 
@@ -200,7 +197,3 @@ kubectl port-forward svc/monitoring-stack-grafana 3000:80 -n monitoring
 Prometheus Helm Charts
 
 
-
-Bitnami MySQL Helm Chart
-
-Nginx Ingress Helm Chart
