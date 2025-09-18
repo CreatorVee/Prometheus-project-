@@ -3,7 +3,7 @@
 ---
 
 
-## :) **Explore My Work - *Click Each Badge*  to See Real Code & Configurations** :)
+##  **Explore My Work - *Click Each Badge*  to See Real Code & Configurations** 
 
 
 
@@ -43,11 +43,11 @@
 ---
 
 
-# PROJECT OVERVIEW***
+# ✅ PROJECT OVERVIEW***
 
 ***The goal of this project was to monitor a Java application, MySQL database, and Nginx Ingress controller deployed on a Kubernetes cluster, and to configure Prometheus to send email alerts when critical conditions occur.***
 
-Key objectives:
+ 🎯 Key objectives:
 
 - Deploy Java app with MySQL backend in Kubernetes
 
@@ -61,7 +61,7 @@ Key objectives:
 
 ---
 
- ***PROBLEM***
+  ❌ ***PROBLEM***
 
 Before this setup:
 
@@ -73,7 +73,7 @@ Before this setup:
 
 ---
 
- ***SOLUTION***
+✅ ***SOLUTION***
 
 - This project uses Kubernetes + Prometheus + Helm to create a self-monitoring environment:
 
@@ -107,7 +107,7 @@ Before this setup:
 
 - Email notifications triggered successfully when alert conditions are met
 
-***OUTCOME***
+✅***OUTCOME***
 
 -  ***Prometheus successfully monitored all services***
 
@@ -116,7 +116,7 @@ Before this setup:
 
 ---
 
-***SETUP INSTRUCTIONS***
+📝 ***SETUP INSTRUCTIONS***
 
 # Create Kubernetes Cluster
 eksctl create cluster --name monitoring-cluster --region eu-west-2 --nodegroup-name ng-1 --nodes 2 --nodes-min 1 --nodes-max 3
@@ -168,7 +168,7 @@ kubectl port-forward svc/monitoring-stack-grafana 3000:80 -n monitoring
 
 ---
 
- ***PERSONAL LEARNINGS***
+# 📚 ***PERSONAL LEARNINGS***
 
 - Learned Kubernetes StatefulSets, Services, and Ingress controllers
 
@@ -183,7 +183,7 @@ kubectl port-forward svc/monitoring-stack-grafana 3000:80 -n monitoring
 - Practiced CI/CD principles for monitoring infrastructure
 
 ---
-***PHOTOGRAPHIC EVDIENCE***
+# 📸 ***PHOTOGRAPHIC EVDIENCE***
 
 
 
